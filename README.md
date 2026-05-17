@@ -80,6 +80,8 @@ As mentioned before, the CPU is connected to a Non-Volatile Memory module that s
 
 A custom file can be uploaded to the NRAM by clicking the right mouse button on the module and clicking `View/Edit NRAM Data` option. Click `File` on the top left of the NRAM menu and click `Load Data` and select your `custom.hex` file and click open. Now you should see the hex values you wrote in your file in the NRAM cells. Now you can navigate to the module named `CLK` in the timing unit and click the square button reset the simulation and all the values from the modules and click play on the top left to start the simulation of the processor executing your very own custom instruction flow.
 
+As an example of how the custom file should be written, I have uploaded a sample file with 4 instructions that can be found and downloaded called [`mine.hex`](/mine.hex)
+
 ## Documentation
 An in-depth guide and explanation of the registers, available instructions (ISA) and core components and any other information that is needed to get more grasp of the simulation design can be found [here](/docs/hex.pdf). This document is not mine and is written by `David May` in 2014. All credit goes to the original author.
 
